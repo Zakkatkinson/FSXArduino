@@ -5,29 +5,9 @@
     Jimspage.co.nz
     My thanks to the Guys that gave me snippets of code. 
     
-    This sets the Arduino Mega card to indicate gear position with the simconnect codes with 
-    the remainder for inputs except pin 13.
-    LED for gear (nose) onto pin 2 ((Thru a resistor)
-    LED for gear (left) onto pin 3 ((Thru a resistor)
-    LED for gear (right) onto pin 4 ((Thru a resistor)
-    LED for gear (in transition) onto pin 5 (Thru a resistor)
-    For the gear control, attach 2 buttons (or a double throw toggle switch) to pins 6 and 7
-    A switch on pin 8 will lower the flaps 1 notch
-    A switch on pin 9 will raise the flaps 1 notch
-    A switch on pin 10 will increase the Com1 Mhz
-    A switch on pin 11 will decrease the Com1 Mhz
-    A switch on pin 12 will set the transponder to 6543
-    
-    Attach a switch to any pin, 14 upwards(except 13) and program that pin in "Multi Keys" section.
-    Everything to do with "Keys"  starts with a "K" in this code.
-    
-    To change this for a Uno,, do the following ,,,,
-    Line 29 ,, change "70"  to "20"
-    Line 117 ,, change "70"  to  "20"
-    That will make all the pins work as above. (Except pin 13)
-
+   Massive modicications made by Zakk Atkinson
+   http://ZakkBlog.com
 */
-
 int flapsled1 = 49;
 int flapsled2 = 48;
 int flapsled3 = 47;
